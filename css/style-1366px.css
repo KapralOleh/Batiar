@@ -1,0 +1,119 @@
+@media screen and (max-width: 1367px) {
+	#d1,#d2,#d3,#skills,#info,#main {
+		height: 550px;
+	}
+	.content {
+		width: 650px;
+		padding-top: 30px;
+	}
+	#secondUl,#thirdUl,#fourthUl,#fiveUl {
+		text-align: left;
+		font-size: 16px;
+	}
+	.left {
+		float: left;
+		width: 200px;
+	}
+	.left img {
+		width: 150px;
+	}
+	#slider {
+		width: 400px;
+		height: 200px;
+		text-align: center;
+		padding-left: 100px;
+	}
+	#slide {
+		width: 450px;
+		height: 275px;
+		text-align: center;
+	}
+	#menu,#footer {
+		height: 50px;
+	}
+	#menu .content {
+	padding-top: 0px;
+	}
+	#navigation{
+	font-size: 16px;
+	}
+	#logo {
+		left:0px;
+		width: 40px;
+	}
+	#firstUl,#secondUl,#thirdUl,#fourthUl,#fiveUl,#sixUl {
+		font-size: 16px;
+	}
+	#firstUl {
+		padding-top: 100px;
+	}
+	#secondUl {
+		padding-top: 40px;
+	}
+	#thirdUl {
+		padding-top: 120px;
+	}
+	#fourthUl {
+		padding-top: 170px;
+	}
+
+	#d1 .content, #d2 .content, #d3 .content {
+		height: 650px;
+	}
+	.team {
+		width: 320px;
+		height: 180px;
+	}
+	#img7 {
+		width: 400px;
+	}
+	.teams {
+		font-size: 16px;
+		top: 20px;
+		left: 0px;
+	}
+	.imgt {
+		left: 30px;
+		width: 40px;
+	}
+	@keyframes fiveanime {
+    	0%   {width: 0px;}
+    	100% {width: 400px;}
+	}
+	@keyframes fourthanime {
+    	0%   {width: 0px;}
+    	100% {width: 150px;}
+	}
+	#fiveUl,#sixUl {
+		width: 200px;
+		margin-left: 20px;
+		opacity: 1;
+	}
+	#footer {
+		text-align: center;
+		padding-top: 20px;
+	}
+	#d1:before,#d3:before {
+	top:580px;	
+	left: 100px;
+	border-top: 30px solid #F9BB3D;
+	border-right: 35px solid transparent;
+	border-left:  35px solid transparent;
+	}
+	#d2:before,#skills:before,#main:before {
+	top: 580px;	
+	left: 1000px;
+	border-top: 30px solid #455A64;
+	border-right: 35px solid transparent;
+	border-left:  35px solid transparent;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	#d1:before,#d3:before {
+		left: 200px;
+	}
+	#d2:before,#skills:before,#main:before {
+		left: 1100px;
+	}
+}
